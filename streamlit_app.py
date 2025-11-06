@@ -74,7 +74,8 @@ CONTENT_BY_LABEL: dict[str, dict[str, list[str]]] = {
     #   "images": ["https://.../jjampong1.jpg", "https://.../jjampong2.jpg"],
     #   "videos": ["https://youtu.be/XXXXXXXXXXX"]
     # },
-    labels[0]:{"texts":["중국식 냉면 입니다"]},
+    labels[0]:{"texts":["중국식 냉면 입니다"],
+              "videos":[]},
     labels[1]:{"texts":["짜장면 입니다"]},
     labels[2]:{"texts":["짬뽕 입니다"]},
     labels[3]:{"texts":["탕수육 입니다"]},
